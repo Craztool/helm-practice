@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: ghcr.io/craztool/helm-practice
-  tag: c8f7caa61b051a8b66ac1b2ef784da59a63996d5
+  tag: 7edde7b12e5220514c079cc80e7a164c17539490
 
 service:
   port: 80
