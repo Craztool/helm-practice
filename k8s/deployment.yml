@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helm-practice-deployment
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: helm-practice
+  template:
+    metadata:
+      labels:
+        app: helm-practice
+    spec:
+      containers:
+        - name: helm-practice-containers
+          image: ghcr.io/craztool/helm-practice:latest
+          ports:
+            - containerPort: 80
