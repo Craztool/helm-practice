@@ -4,6 +4,8 @@ metadata:
   name: helm-practice-deployment
 spec:
   replicas: {{ .Values.replicaCount }}
+  strategy:
+    {{- toYaml .Values.strategy | nindent 4 }}
   selector: 
     matchLabels:
       app: helm-practice
