@@ -1,5 +1,5 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: argoproj.i/v1alpha1
+kind: Rollout
 metadata:
   name: helm-practice-deployment
 spec:
