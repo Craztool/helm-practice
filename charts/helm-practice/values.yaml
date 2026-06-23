@@ -2,9 +2,7 @@ replicaCount: 4
 
 strategy:
   canary:
-    steps:
-    - setWeight: 100
-    - pause: {}
+    steps: []
 
 image:
   repository: ghcr.io/craztool/helm-practice
