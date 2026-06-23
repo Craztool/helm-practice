@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: helm-practice-containers
-          image: ghcr.io/craztool/helm-practice:latest
+          image: ghcr.io/craztool/helm-practice:132c221272b691536d0f47339fb054a345cfc8a5
           ports:
             - containerPort: 80
