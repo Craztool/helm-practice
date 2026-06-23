@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/craztool/helm-practice
+  tag: latest
+
+service:
+  port: 80
+
+ingress:
+  host: practice.local
