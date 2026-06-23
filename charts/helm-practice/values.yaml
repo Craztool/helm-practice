@@ -8,4 +8,4 @@ service:
   port: 80
 
 ingress:
-  host: practice.local
+  host: helm.local
