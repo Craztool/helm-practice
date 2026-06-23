@@ -8,7 +8,7 @@ strategy:
 
 image:
   repository: ghcr.io/craztool/helm-practice
-  tag: 98ca8b3b98b6e9b9ff3231fa98719c7e01cefdbc
+  tag: 90e9347f43f094a88f1a7e65e3a12c2f869cd60d
 
 service:
   port: 80
