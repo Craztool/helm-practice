@@ -5,7 +5,7 @@ strategy:
     steps: []
 
 image:
-  repository: ghcr.io/craztool/helm-practice
+  repository: craztool/helm-site
   tag: 0dc6420d4d414d14b3b519c8ed9705584164f756
 
 service:
