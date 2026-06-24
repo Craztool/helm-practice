@@ -6,7 +6,7 @@ strategy:
 
 image:
   repository: craztool/helm-site
-  tag: 4a15e1309091d56669c87c8e305a3d0fd83caa2f
+  tag: 112c96e33adebf009ae8f2de6d34703cc487b823
 
 service:
   port: 80
